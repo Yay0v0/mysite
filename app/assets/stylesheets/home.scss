@@ -2,22 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html {
-  background-image: url("/top.jpg");
-}
 
 .main {
   width: 100%;
-  padding: 100px;
+  padding-top: 150px;
 }
 
 .login-form {
   background-color: #6e5b3b;
   width: 350px;
+  padding: 30px 50px;
   margin: 0 auto;
   text-align: center;
-  padding: 30px 50px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 h1 {
@@ -45,10 +42,14 @@ input {
 
 img {
   width: 280px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .login-button {
   cursor: pointer;
-  padding: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border-style: none;
+  background-color: white;
+  border-radius: 2px;
 }
