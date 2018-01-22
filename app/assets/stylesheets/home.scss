@@ -1,0 +1,54 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  background-image: url("/top.jpg");
+}
+
+.main {
+  width: 100%;
+  padding: 100px;
+}
+
+.login-form {
+  background-color: #6e5b3b;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 50px 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 7px;
+  color: white;
+  font-family: monospace;
+  line-height: 10px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  line-height: 5px;
+}
+
+input {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 5px 0px;
+  width: 300px;
+}
+
+img {
+  width: 280px;
+  padding-bottom: 20px;
+}
+
+.login-button {
+  cursor: pointer;
+  padding: 20px;
+}
