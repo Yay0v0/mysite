@@ -1,4 +1,15 @@
 
 <div class="main">
-
+  <div class="top-wrapper">
+  </div>
+  <div class="posts-wrapper">
+    <% @posts. each do |post| %>
+    <div class="post">
+      <p class="date">○月○日（　）</p>
+      <div class="post-body">
+        <%=post %>
+      </div>
+    </div>
+    <% end %>
+  </div>
 </div>

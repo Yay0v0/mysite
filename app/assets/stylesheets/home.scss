@@ -2,9 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* ここからlogin */
+
+body {
+  background-color: #f5e4c4;
+}
 
 .main {
   width: 100%;
+  height: 100%;
   padding-top: 150px;
 }
 
@@ -53,3 +59,5 @@ img {
   background-color: white;
   border-radius: 2px;
 }
+
+/* ここまでlogin */
