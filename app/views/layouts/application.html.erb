@@ -7,9 +7,23 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="/top"> <img src="/logo.png" class="header-logo"> </a>
+        </div>
+        <div class="header-right">
+          <a href="/new" class="fa fa-plus header-fa"></a>
+          <a href="" class="fa fa-cog header-fa"></a>
+          <a href="/" class="fa fa-sign-out header-fa"></a>
+        </div>
+      </div>
+    </header>
+
     <%= yield %>
   </body>
 </html>

@@ -13,3 +13,49 @@
  *= require_tree  .
  *= require_self
  */
+
+
+
+ html, body {
+   margin: 0;
+   padding: 0;
+ }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ /* ここからheader */
+
+ header {
+   background-color: #6e5b3b;
+   width: 100%;
+   height: 80px;
+ }
+
+ .header-logo {
+   height: 80px;
+   width: auto;
+   box-sizing: border-box;
+   padding-top: 5px;
+   padding-bottom: 0;
+ }
+
+ a.header-fa {
+   color: white;
+   margin-right: 15px;
+   margin-top: 17px;
+   font-size: 45px;
+   text-decoration: none;
+ }
+
+ .header-left {
+   float: left;
+ }
+
+ .header-right {
+   float: right;
+ }
+
+ /* ここまでheader */

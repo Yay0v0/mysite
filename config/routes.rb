@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'top' => 'posts#top'
+  get 'new' => 'posts#new'
 
   get '/' => 'home#login'
 
