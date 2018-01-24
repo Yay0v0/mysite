@@ -17,9 +17,11 @@
           <a href="/top"> <img src="/logo.png" class="header-logo"> </a>
         </div>
         <div class="header-right">
-          <a href="/new" class="fa fa-plus header-fa"></a>
-          <a href="" class="fa fa-cog header-fa"></a>
-          <a href="/" class="fa fa-sign-out header-fa"></a>
+          <ul>
+            <li><%=link_to("/new") do %><span class="fa fa-plus header-fa"></span> <% end %> </li>
+            <li><%=link_to("/") do %> <span class="fa fa-cog header-fa"></span> <% end %></li>
+            <li><%=link_to("/") do %> <span class="fa fa-sign-out header-fa"></span> <% end %></li>
+          </ul>
         </div>
       </div>
     </header>
